@@ -1,0 +1,158 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tathagata - Portfolio</title>
+    <link href="https://fonts.googleapis.com/css2?family=DynaPuff:wght@400;500;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="styles.css">
+
+</head>
+
+<body>
+    <header>
+        <nav>
+            <div class="left">Tathagata's Portfolio</div>
+            <div class="right">
+                <ul>
+                    <li><a href="/" class="nav-link" id="home-link">Home</a></li>
+                    <li><a href="#" class="nav-link" id="about-link">About</a></li>
+                    <li class="dropdown">
+                        <a href="#" class="nav-link" id="projects-link">Projects &#9662;</a>
+                        <ul class="dropdown-content" id="projects-dropdown">
+                            <li><a href="https://github.com/VenomxSpiderman/YouTube_Downloader" target="_blank">YouTube
+                                    Downloader</a></li>
+                            <li><a href="https://github.com/VenomxSpiderman/pomodoro-timer" target="_blank">Pomodoro Timer</a>
+                            </li>
+                            <li><a href="https://github.com/VenomxSpiderman/java-library-management-system" target="_blank">Java
+                                    Library Management</a></li>
+                        </ul>
+                    </li>
+                    <li class="dropdown">
+                        <a href="#" class="nav-link" id="contact-link">Contact Me &#9662;</a>
+                        <ul class="dropdown-content" id="contact-dropdown">
+                            <li><a href="tel:+919903075731">Call</a></li>
+                            <li><a href="mailto:tathagatasur94@gmail.com">Email</a></li>
+                        </ul>
+                    </li>
+                </ul>
+            </div>
+        </nav>
+    </header>
+
+    <main>
+        <section class="firstSection">
+            <div class="leftSection">
+                Hi, My name is
+                <span class="Name">Tathagata</span>
+                <div>and I am a passionate
+                </div>
+                <span id="element"></span>
+                <div class="button">
+                    <button class="btn">
+                        Download Resume
+                    </button>
+
+                    <button class="btn">
+                        Visit Github
+                    </button>
+                </div>
+            </div>
+            <div class="rightSection">
+                <img src="./Assets/bg.jpg" alt="Image of a developer">
+            </div>
+        </section>
+
+        <hr>
+
+        <section class="secondSection">
+
+            <h1>What I Do</h1>
+
+            <div class="box">
+                <div class="vertical">
+                    <img class="image-top " src="./Assets/lc.png" alt="">
+                    <div class="vertical-title">
+                        Competitive Programmer
+                    </div>
+                    <div class="vertical-desc">
+                        Participated in various events that required strong fundamentals of Data Structures and Algorithms
+                    </div>
+
+                </div>
+                <div class="vertical">
+                    <img class="image-top " src="./Assets/sql.png" alt="">
+                    <div class="vertical-title">
+                        SQL Developer
+                    </div>
+                    <div class="vertical-desc">
+                        Strong fundaments of DBMS including projects in MySQL and PostgreSQL
+                    </div>
+
+                </div>
+                <div class="vertical">
+                    <img class="image-top " src="./Assets/py.png" alt="">
+                    <div class="vertical-title">
+                        Python Developer
+                    </div>
+                    <div class="vertical-desc">
+                        Projects in Python like YouTube Video Downloader and Pomodoro Timer
+                    </div>
+
+                </div>
+
+            </div>
+        </section>
+    </main>
+    <footer>
+        <div class="footer">
+            <div class="foo-first">
+                <h3>Tathagata's Portfolio</h3>
+                <p>Passionate developer focused on creating innovative solutions with clean, efficient code.</p>
+            </div>
+            <div class="foo-second">
+                <h4>Quick Links</h4>
+                <ul>
+                    <li><a href="#" id="footer-home">Home</a></li>
+                    <li><a href="#" id="footer-about">About</a></li>
+                    <li><a href="#" id="footer-contact">Contact</a></li>
+                </ul>
+            </div>
+            <div class="foo-third">
+                <h4>Projects</h4>
+                <ul>
+                    <li><a href="https://github.com/VenomxSpiderman/YouTube_Downloader" target="_blank">YouTube Downloader</a></li>
+                    <li><a href="https://github.com/VenomxSpiderman/pomodoro-timer" target="_blank">Pomodoro Timer</a></li>
+                    <li><a href="https://github.com/VenomxSpiderman/java-library-management-system" target="_blank">Library Management</a></li>
+                </ul>
+            </div>
+            <div class="foo-fourth">
+                <h4>Contact Info</h4>
+                <ul>
+                    <li><a href="mailto:tathagatasur94@gmail.com">Email</a></li>
+                    <li><a href="tel:+919903075731">Phone</a></li>
+                    <li><a href="https://github.com/venomxspiderman" target="_blank">GitHub</a></li>
+                    <li><a href="https://in.linkedin.com/in/tathagata06" target="_blank">LinkedIn</a></li>
+                </ul>
+            </div>
+        </div>
+        <div class="foo-rights">
+            Copyright &#169; 2025 Tathagata | All rights reserved
+        </div>
+    </footer>
+    <script src="https://unpkg.com/typed.js@2.1.0/dist/typed.umd.js"></script>
+
+    <script>
+        var typed = new Typed('#element', {
+            strings: ['Competitive Programmer', 'Python Developer', 'Web Developer', 'SQL developer'],
+            typeSpeed: 50,
+            startDelay:1000,
+            backDelay:1000,
+            loop:true
+        });
+    </script>
+    <script src="script.js"></script>
+</body>
+
+</html>
